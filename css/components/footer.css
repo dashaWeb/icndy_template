@@ -1,0 +1,26 @@
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4.3% 0;
+}
+
+footer img {
+    width: 27px;
+}
+
+footer ul {
+    display: flex;
+}
+
+footer nav ul:first-of-type li {
+    margin-right: 70px;
+    font-size: 18px;
+}
+footer ul:first-of-type a{
+    color:#1a1a1a;
+    font-family: "ProximaNovaBold";
+}
+footer ul:last-of-type li {
+    margin-left: 40px;
+}

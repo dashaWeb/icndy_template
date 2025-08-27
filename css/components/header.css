@@ -1,0 +1,61 @@
+.bg-header{
+    background: #000 url(../../img/banner.png) center center;
+    background-size: cover;
+}
+.bg-header header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 40px;
+}
+.bg-header header ul{
+    display: flex;
+}
+.bg-header header a{
+    font-family: "ProximaNovaBold";
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #fff;
+    margin-left: 65px;
+    transition: 2s;
+}
+.bg-header header a:hover{
+    color:#f84545;
+    text-shadow: 0 0 1px black;
+}
+.bg-header .banner h2:first-of-type{
+    font-size: 60px;
+    font-family: "ProximaNovaNormal";
+    line-height: 70px;
+    letter-spacing: 40px;
+    text-align: center;
+    color:#fff;
+    padding-top: 16.6%;
+}
+.bg-header .banner h2:last-of-type{
+    font-size: 30px;
+    font-family: "ProximaNovaBold";
+    letter-spacing: 20px;
+    text-align: center;
+    color:#f84545;
+    padding-top: 3.3%;
+    padding-bottom: 17.3%;
+}
+.bg-header .arrow-down
+{
+    width: 40px;
+    height: 40px;
+    border:solid 3px #fff;
+    transform: rotate(45deg);
+    margin: 0 auto;
+    margin-bottom: 4.6%;
+    border-width: 0 3px 3px 0;
+}
+.bg-header .arrow-down:hover
+{
+    border-color: #f84545;
+    cursor: pointer;
+}
+.bg-header{
+    border-bottom: solid 1px gray;
+}

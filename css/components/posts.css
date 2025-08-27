@@ -1,0 +1,58 @@
+.posts{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 3.8%;
+    padding-top: 3.8%;
+    padding-bottom: 5.5%;
+}
+.posts h3{
+    font-size: 40px;
+    color:#fff;
+    font-family: "ProximaNovaNormal";
+    font-weight: 100;
+    letter-spacing: 20px;
+}
+.posts figure:nth-of-type(1){
+    background: #000 url(../../img/Gourmet.png) center center;
+    background-size: cover;
+    padding-top: 45%;
+    grid-column: span 2;
+    grid-row: span 2;
+    padding-left: 4%;
+    padding-bottom: 5.6%;
+}
+.posts figure:nth-of-type(2),
+.posts figure:nth-of-type(3)
+{
+    background-size: cover;
+    padding-left: 8.4%;
+    padding-bottom: 8%;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.posts figure:nth-of-type(2){
+    background: #000 url(../../img/Carhartt.png) center center;
+    
+
+}
+.posts figure:nth-of-type(3){
+    background: #000 url(../../img/adidas.png) center center;
+}
+.posts figure:nth-of-type(4){
+    background: #000 url(../../img/10deep.png) center center;
+    padding-top: 77.8%;
+    padding-left: 8.4%;
+    padding-bottom: 7.9%;
+}
+.posts figure:nth-of-type(5){
+    background: #000 url(../../img/Palace.png) center center;
+    padding-top: 72.6%;
+    padding-left: 8.4%;
+}
+.posts figure:nth-of-type(6){
+    background: #000 url(../../img/nike.png) center center;
+    padding-top: 81.3%;
+    padding-left: 8.4%;
+}
